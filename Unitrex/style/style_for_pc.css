@@ -1,0 +1,1765 @@
+/*Style for PC and laptop*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow: auto!important;
+}
+@media only screen and (min-device-width: 801px) {
+    #sendform fieldset {
+        border: none;
+    }
+
+    #sendform p {
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+    #sendform label {
+        float: left;
+        width: 150px;
+    }
+
+    #sendform input[type="text"],
+    #sendform input[type="tel"],
+    #sendform input[type="email"],
+    #sendform textarea {
+        border: 1px solid #ccc;
+        height: 22px;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: left;
+        width: 250px;
+    }
+
+
+    #sendform textarea {
+        height: 100px;
+    }
+
+    #sendform input.error {
+        border: 1px solid red
+    }
+
+    #sendform label.error {
+        display: none !important;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: #fff;
+    }
+
+    :root {
+        --value-div-width: 150px;
+        --value-div-height: 150px;
+        --value-img-height: 22%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    /*Footer*/
+    .footer {
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .part_footer_menu_link {
+        font-family: Conv_13400;
+        color: #000 !important;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .part_footer_menu {
+        padding-left: 6.7%;
+    }
+
+    .part_footer_menu_one {
+        padding-left: 7%;
+    }
+
+    .part_footer_menu_two {
+        padding-left: 14%;
+    }
+
+    .part_footer_menu_three {
+        padding-left: 21%;
+    }
+
+    .part_footer_menu_four {
+        padding-left: 28%;
+        width: 50%;
+    }
+
+    .text_footer {
+        font-family: Open Sans;
+        text-align: center;
+        font-size: 3.3vmin;
+        position: relative;
+        top: 30vh;
+        left: 0;
+        right: 0;
+        margin-bottom: 33vh;
+    }
+
+    .sosial_netfork_links {
+        position: relative;
+        width: 75vmin;
+        top: 20vh;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .mobile_sosial_menu {
+        display: none;
+    }
+
+    .footer_menu {
+        color: #fff;
+        font-family: Conv_13400;
+        font-size: 18px;
+        position: absolute;
+        left: 34.5%;
+        top: 575%;
+    }
+
+    .value_mobile {
+        display: none;
+    }
+
+    .img_form_file {
+        height: 2.7vmin;
+        width: 2.7vmin;
+    }
+
+    .brs {
+        display: none;
+    }
+
+    .part_sosial_netfork {
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .sosial_cube_div {
+        background: #313131;
+        height: 9vmin;
+        width: 9vmin;
+        border-radius: 2.5vmin;
+    }
+
+    .sosial_cube_div:hover {
+        transform: rotate(45deg);
+        background: #53D9D3;
+        z-index: 0;
+    }
+
+    .list_vacancies {
+        box-shadow: #0c0c0c;
+        color: #000 !important;
+    }
+
+    .sosial_cube_img_instagram {
+        z-index: 9999 !important;
+        height: auto;
+        width: 4vmin;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        position: relative;
+        top: 50%;
+    }
+
+    .sosial_cube_img_linkedin {
+        z-index: 9999 !important;
+        height: auto;
+        width: 4vmin;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        position: relative;
+        top: 50%;
+    }
+
+    .sosial_cube_img_facebook {
+        z-index: 9999 !important;
+        height: auto;
+        width: 2vmin;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        position: relative;
+        top: 50%;
+    }
+
+    .sosial_cube_img_youtube {
+        z-index: 9999 !important;
+        height: auto;
+        width: 5vmin;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        position: relative;
+        top: 50%;
+    }
+
+    /*End Footer*/
+    /*Home Header*/
+    #header_home, #particle_left_about_our_service, #particle_right_about_our_service, #particle_left_about_find_job,
+    #particle_right_about_find_job, #particle_left_write_us_white, #particle_right_write_us_white, #our_story_button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .header_home {
+        background-color: #2C2C2C;
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    .header_home_menu {
+        top: 5%;
+        color: #fff;
+        font-family: Conv_13400;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90vmin;
+    }
+    #header_history{
+        position: absolute;
+        width: 100%;
+        height: 96%;
+    }
+    .footer_home_menu {
+        top: 8vh;
+        font-family: Conv_13400;
+        position: relative;
+        width: 81vmin;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .part_menu_pc {
+        display: inline-block;
+        margin-left: 4%;
+        font-size: 3.3vmin;
+        position: relative;
+        z-index: 9999;
+
+    }
+
+    .part_menu_pc_footer {
+        display: inline-block;
+        margin-left: 4vmin;
+        font-size: 3.3vmin;
+        color: #000;
+    }
+
+    .header_home_title {
+        font-size: 15vmin;
+        font-family: Futura-Bold;
+        font-weight: bold;
+        left:50%;
+        width: 79vmin;
+        transform:translate(-50%);
+        word-spacing: -15px;
+        top: 16%;
+        position: relative;
+        text-align: center;
+    }
+
+    .header_home_text {
+        font-family: Conv_13400;
+        text-align: center;
+        font-size: 4vmin;
+        left:50%;
+        width: 50vmin;
+        transform:translate(-50%);
+        font-weight: 200;
+        top: 15%;
+        position: relative;
+    }
+
+    .part_header_home_menu_one {
+        padding-left: 7%;
+    }
+
+    .part_header_home_menu_two {
+        padding-left: 14%;
+    }
+
+    .part_header_home_menu_three {
+        padding-left: 21%;
+    }
+
+    .part_header_home_menu_four {
+        padding-left: 28%;
+        width: 50%;
+    }
+
+    .language_header_home_menu {
+        background: transparent;
+    }
+
+    .select_language {
+        background: transparent;
+        border: none;
+        color: #FFF;
+        appearance: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .dropbtn {
+        background: none;
+        color: white;
+        padding: 10px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        left: 10px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /*End Home Header*/
+    /*Home body*/
+    .about_our_service {
+        background: #ffffff;
+        width: 58%;
+        max-width: 1920px;
+        min-width: 320px;
+        height: 125vh;
+        position: relative;
+    }
+
+    .about_our_service_middle {
+        width: 59.53125%;
+        position: absolute;
+        top: 600px;
+        left: 7%;
+        z-index: 9999;
+    }
+
+    .our_sevice_title {
+        font-family: futuraMediumBT;
+        font-size: 6.9vmin;
+        left: 15vw;
+        font-weight: 300;
+        top: 6%;
+        position: relative;
+        right: 30vw;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .outsourcing_title {
+        font-family: futuraMediumBT;
+        font-size: 4.5vmin;
+        margin-left: 1vw;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        display: inline-block;
+        margin-top: 0;
+
+    }
+
+    .outstaffing_title {
+        font-family: futuraMediumBT;
+        font-size: 4.5vmin;
+        margin-left: 1vw;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        display: inline-block;
+    }
+
+    .body_history .outsourcing_content{
+        top: -1.3%;
+    }
+    .body_history .outstaffing_content{
+        top: 0;
+    }
+
+    .outsourcing_content {
+        position: relative;
+        top: -6.5%;
+        left: 40vw;
+        width: 80%;
+        right: 20vw;
+    }
+
+    .outstaffing_content {
+        position: relative;
+        top: -4%;
+        left: 40vw;
+        width: 80%;
+        right: 20vw;
+    }
+
+    .two_string {
+        padding-top: 2%;
+    }
+
+    .three_string {
+        padding-top: 2%;
+    }
+
+    .important_us_title {
+        font-family: futuraMediumBT;
+        font-size: 6.9vmin;
+        left: 15vw;
+        right: 20vw;
+        top: 0;
+        font-weight: 300;
+        position: relative;
+        display: inline-block;
+    }
+
+    .outsourcing_text {
+        font-family: Futura LT Book;
+        font-size: 3vmin;
+        margin-top: -6px;
+        line-height: 3.7vmin;
+    }
+
+    .outstaffing_text {
+        font-family: Futura LT Book;
+        font-size: 3vmin;
+        margin-top: -6px;
+        line-height: 3.7vmin;
+        position: relative;
+    }
+
+    .cube_img {
+        height: 1.2vw;
+        position: relative;
+        display: inline-block;
+        margin-top: -17px;
+    }
+
+    .values {
+        position: relative;
+        left: 11vw;
+        width: 115%;
+        z-index: 9999;
+        top: 0;
+    }
+
+    .part_slider {
+        margin: 10px;
+        height: 22vmin;
+        width: 22vmin;
+        border-radius: 3px;
+        font-family: Futura LT Book;
+    }
+
+    .values .slider {
+        width: 120%;
+    }
+
+    .values .slider__control_right {
+        z-index: 9999;
+    }
+
+    .values .slider__control_left {
+        z-index: 9999;
+    }
+
+    .particle_left_about_our_service {
+        width: 21%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .particle_right_about_our_service {
+        width: 21%;
+        height: 125vh;
+        right: 0;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 150%;
+    }
+
+    .value_red_img {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        height: 6vmin;
+    }
+
+    .value_orange_img {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        height: 6vmin;
+    }
+
+    .value_green_img {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        height: 6vmin;
+    }
+
+    .value_blue_img {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        height: 6vmin;
+    }
+
+    .value_violet_img {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        height: 6vmin;
+    }
+
+    .value_important {
+        display: inline-block;
+    }
+
+    .value_red_text {
+        vertical-align: middle;
+    }
+
+    .value_red {
+        background: #FFB0AB;
+        font-family: futuraMediumBT;
+        color: #FF6158;
+        width: var(--value-div-width);
+        height: var(--value-div-height);
+        border-radius: 2px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .value_yellou {
+        background: #FFEDAB;
+        font-family: futuraMediumBT;
+        color: #FACC2C;
+        width: var(--value-div-width);
+        height: var(--value-div-height);
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 11%;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+    }
+
+
+    .value_yellou_text {
+        vertical-align: middle;
+    }
+
+    .value_green {
+        background: #DAFFAB;
+        font-family: futuraMediumBT;
+        color: #94D641;
+        width: var(--value-div-width);
+        height: var(--value-div-height);
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 22%;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .value_green_text {
+        vertical-align: middle;
+    }
+
+    .value_blue {
+        background: #B9E6FF;
+        font-family: futuraMediumBT;
+        color: #53C1FF;
+        width: var(--value-div-width);
+        height: var(--value-div-height);
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 33%;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .value_blue_text {
+        vertical-align: middle;
+    }
+
+    .value_violet {
+        background: #E7CFFF;
+        font-family: futuraMediumBT;
+        color: #CF9EFF;
+        width: var(--value-div-width);
+        height: var(--value-div-height);
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 44%;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+    }
+
+
+    .value_violet_text {
+        vertical-align: middle;
+    }
+
+    .important_us_value {
+        padding-left: 22%;
+        width: 110%;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .particle_left_about_find_job {
+        width: 21%;
+        height: 85vh;
+        position: absolute;
+    }
+
+    .particle_right_about_find_job {
+        width: 21.5%;
+        height: 85vh;
+        top: 225vh;
+        left: 78.5%;
+        position: absolute;
+        display: inline-block;
+    }
+
+    .particle_right_write_us_white {
+        width: 21%;
+        left: 79%;
+        height: 120vh;
+        position: absolute;
+        top: 339%;
+    }
+
+    .particle_left_write_us_white {
+        width: 21%;
+        height: 120vh;
+        position: absolute;
+    }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    .custom-file-upload {
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        border: none;
+        font-family: futuraMediumBT;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top: 5vmin;
+        z-index: 1;
+        font-size: 3.2vmin;
+    }
+
+    .add_cover_latter_text {
+        position: relative;
+        top: -2px;
+        left: 0.5vw;
+        font-family: futuraMediumBT;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .find_job {
+        background: #2C2C2C;
+        width: 100%;
+        height: 85vh;
+    }
+    .header_vacancies .part_menu_pc{
+        color:#000;
+    }
+    .header_vacancies .dropbtn{
+        color:#000;
+        font-size: 20px;
+    }
+    .header_vacancy_list_menu{
+        top: 5%!important;
+        left: 18vw!important;
+        position: relative;
+        transform: translate(50%);
+        width: 93vmin!important;
+    }
+    .find_job_title {
+        position: relative;
+        top: 5vh;
+        left: 15vw;
+        font-family: futuraMediumBT;
+        color: #fff;
+        font-size: 6.9vmin;
+        font-weight: 300;
+        line-height: 8vmin;
+        display: inline-block;
+    }
+
+    .find_job_button_link {
+        position: relative;
+    }
+
+    .find_job_button {
+        width: 25vmin;
+        height: 8vmin;
+        background: #53D9D3;
+        border: none;
+        font-family: futuraMediumBT;
+        color: #fff;
+        font-size: 3.3vmin;
+        font-weight: 300;
+        position: relative;
+        top: 0;
+        left: 55vw;
+        cursor: pointer;
+        z-index: 99999;
+    }
+
+    .vacancy_one {
+        background: #FFF;
+        width: 255px;
+        height: 146px;
+        margin-top: -300px;
+        margin-left: 20%;
+    }
+
+    .vacancy_two {
+        background: #FFF;
+        width: 255px;
+        height: 146px;
+        margin-left: 40%;
+        margin-top: -146px;
+    }
+
+    .body_vacancies_list {
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-family: Conv_13400;
+    }
+
+    .link_to_vacancy {
+        font-family: Conv_13400;
+        -webkit-box-shadow: 0 9px 15px -8px #777;
+        -moz-box-shadow: 0 9px 15px -8px #777;
+        box-shadow: 0 9px 15px -8px #777;
+        background: #fbfafa;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        min-height: 200px;
+        margin-bottom: 40px;
+        height: auto;
+        z-index: 9999;
+        position: relative;
+    }
+    .link_to_vacancy .vacancy_info{
+        padding: 0 20px 0 20px;
+    }
+    .link_to_vacancy .read_more{
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    .particle_list_vacancy{
+        position: absolute;
+        width: 98.85vw;
+        height: 172.7%;
+        top: 100px;
+    }
+    .vacancy_block{
+        position: relative;
+    }
+    .particles_singl_vacancy_blog{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 102.72%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .vacancy_white_block .vacancy_info{
+        padding: 0 30 35 30;
+    }
+    .vacancy_white_block .vacancy_title{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .vacancy_white_block .location_vacancy_list_page{
+        margin-left: 30px;
+    }
+    .vacancy_white_block .departament_vacancy_list_page{
+        margin-left: 30px;
+    }
+    .vacancy_white_block{
+        position: relative;
+        z-index: 9999;
+        background: #fbfafa;
+        width: 70%;
+        min-height: 500px;
+        height: auto;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 5px;
+        -webkit-box-shadow: 0 9px 15px -8px #777;
+        -moz-box-shadow: 0 9px 15px -8px #777;
+        box-shadow: 0 9px 15px -8px #777;
+        margin-bottom: 7%;
+    }
+
+    .departament_vacancy_list_page{
+        margin-left: 20px;
+        font-family: futuraMediumBT;
+        font-weight: 900;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    .location_vacancy_list_page{
+        margin-left: 20px;
+        font-family: futuraMediumBT;
+        font-weight: 300;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    .link_to_vacancy .vacancy_title{
+        margin-left: 20px;
+    }
+
+    .vacancy_three {
+        background: #FFF;
+        width: 255px;
+        height: 146px;
+        margin-left: 60%;
+        margin-top: -146px;
+    }
+
+    .write_us_white {
+        background: #fff;
+        width: 100%;
+        height: 120vh;
+    }
+
+    .swipe_button {
+        width: 70%;
+        opacity: 0.8;
+    }
+
+    .particle_right_write_us_black {
+        height: 100%;
+        top: 0;
+    }
+
+    .particle_left_write_us_black {
+        height: 100%;
+    }
+
+    .write_us_white_title {
+        font-family: futuraMediumBT;
+        top: 9vh;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 6.9vmin;
+        letter-spacing: 1px;
+        font-weight: 300;
+        position: relative;
+        display: inline-block;
+    }
+
+    .write_us_black_title {
+        color: #FFF !important;
+    }
+    .write_us_black .custom-file-upload{
+        color: #fff !important;
+    }
+    .write_us_black .add_cover_latter_text {
+        color: #fff !important;
+    }
+
+    .size_form {
+        width: 25vw;
+        height: 10vh;
+        font-size: 20px;
+        font-family: futuraMediumBT;
+        color: #000;
+        border: 1px solid #000;
+        margin-bottom: 2vmin;
+        padding-left: 2%;
+    }
+
+    .show {
+        display: none;
+    }
+
+    .checkbox_cover:checked ~ .show {
+        display: block;
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+        font-family: futuraMediumBT;
+        color: #000;
+        max-height: 145px;
+        max-width: 100%;
+        min-height: 50px;
+        position: absolute;
+        z-index: 9999;
+    }
+
+    .cover_content {
+        margin-left: 27%;
+    }
+
+    .cover_later {
+        font-family: futuraMediumBT;
+        color: #000;
+        font-size: 16px;
+    }
+
+    .checkbox_cover {
+        transform: scale(140%);
+        opacity: 0.9;
+        cursor: pointer;
+        position: relative;
+        margin-top: 0;
+        top: 0;
+        display: inline-block;
+    }
+
+    ::placeholder {
+        color: #000;
+        font-family: futuraMediumBT;
+        font-size: 3vmin;
+        margin-left: 10%;
+    }
+
+    .form_write_us {
+        position: relative;
+        top: 18vh;
+        left: 23.5vw;
+        width: 52.1vw;
+    }
+
+    .right_input {
+        margin-left: 3%;
+    }
+
+    .button_write_us_white {
+        width: 25vmin;
+        height: 9vmin;
+        background: #53D9D3;
+        border: none;
+        font-family: futuraMediumBT;
+        color: #fff;
+        font-size: 3.5vmin;
+        font-weight: 300;
+        position: relative;
+        top: 13vh;
+        left: 50%;
+        transform: translate(-50%);
+        cursor: pointer;
+    }
+
+    .our_story_button {
+        background: #2C2C2C;
+        width: 100%;
+        height: 72%;
+    }
+
+    .our_story_button_title {
+        font-family: futuraMediumBT;
+        text-align: center;
+        font-size: 6.9vmin;
+        color: #fff;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        font-weight: 300;
+        position: relative;
+        left: 50%;
+        top: 20vh;
+        width: 56vmin;
+        transform: translate(-50%);
+        margin-top: 0;
+    }
+
+    .our_story_button_button {
+        width: 25vmin;
+        height: 9vmin;
+        background: #53D9D3;
+        border: none;
+        font-family: futuraMediumBT;
+        color: #fff;
+        font-size: 3.5vmin;
+        font-weight: 300;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        cursor: pointer;
+        top: 25vh;
+    }
+
+    .particle_our_story_button {
+        position: absolute;
+        height: 72.1%;
+        width: 100%;
+    }
+
+    /*End Home body*/
+    /*History Header*/
+    .header_history {
+        background-color: #2C2C2C;
+        color: #fff;
+        width: 100%;
+        height: 96%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .header_history_menu {
+        top: 5%;
+        color: #fff;
+        font-family: Conv_13400;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 95vmin;
+    }
+
+    .part_header_history_menu {
+        display: inline-block;
+        margin-left: 2vw;
+        font-size: 3.3vmin;
+    }
+
+    .header_history_title {
+        font-size: 15vmin;
+        font-family: Futura-Bold;
+        font-weight: bold;
+        left: 50%;
+        width: 89vmin;
+        transform: translate(-50%);
+        word-spacing: -15px;
+        position: relative;
+        text-align: center;
+        top: 18%;
+    }
+
+    /*End History Header*/
+    /*History Body*/
+    .slider {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slider__wrapper {
+        display: flex;
+        transition: transform 0.6s ease;
+    }
+
+    .slider__item {
+        flex: 0 0 33.333333%;
+        max-width: 45%;
+        min-width: 45%;
+        margin-left: 2%;
+        height: 320px;
+        padding-top: 1%;
+    }
+
+    .slider__control {
+        position: absolute;
+        top: 50%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        color: #fff;
+        text-align: center;
+        opacity: 0.5;
+        height: 50px;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, .5);
+    }
+
+    .slider__control_show {
+        display: flex;
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+        color: #fff;
+        text-decoration: none;
+        outline: 0;
+        opacity: .9;
+    }
+
+    .slider__control_left {
+        left: 0;
+    }
+
+    .slider_item {
+        height: 310px;
+        box-shadow: 0px 0px 12px 0px #D9D9D9; /* Параметры тени */
+    }
+
+    .slider__control_right {
+        right: 0;
+    }
+
+    .slider__control::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: transparent no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    .slider__control_left::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_right::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .slider__item > div {
+        line-height: 250px;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .our_mission_and_vision {
+        width: 100%;
+        margin: 0;
+    }
+
+    .our_mission_and_vision_particles_left {
+        width: 21%;
+        position: absolute;
+        height: 100%;
+    }
+
+    .our_mission_and_vision_particles_right {
+        width: 21%;
+        left: 79%;
+        display: inline-block;
+        position: absolute;
+        top: 95%;
+        height: 100%;
+    }
+
+    .start_compani_particles_left {
+        width: 21%;
+        position: relative;
+        height: 200%;
+    }
+
+    .start_compani_particles_right {
+        width: 21%;
+        margin-left: 79%;
+        display: inline-block;
+        position: relative;
+        top: -600px;
+        height: 200%;
+    }
+
+    .problem_and_solution_particles_left {
+        width: 21%;
+        height: 230%;
+        position: absolute;
+    }
+
+    .problem_and_solution_particles_right {
+        width: 21%;
+        margin-left: 79%;
+        display: inline-block;
+        position: absolute;
+        top: 1922px;
+        height: 230%;
+    }
+
+
+
+    .our_team_title {
+        font-family: futuraMediumBT;
+        font-size: 4vw;
+        left: 40vw;
+        right: 40vw;
+        top: 1082px;
+        font-weight: 300;
+        position: absolute;
+    }
+
+    .problem_and_solution {
+        background: #2C2C2C;
+        color: #fff;
+        width: 100%;
+        height: 230%;
+    }
+
+    .begin_title {
+        font-family: "Open Sans";
+        left: 17vw;
+        font-size: 37px;
+        top: 170px;
+        position: absolute;
+    }
+
+    .begin_text {
+        font-family: "Open Sans";
+        left: 17vw;
+        font-size: 17px;
+        font-weight: 400;
+        top: 260px;
+        position: absolute;
+        width: 65%;
+    }
+
+    .begin {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 1470px;
+    }
+
+    .problem_and_solution_title {
+        font-family: "Open Sans";
+        left: 17vw;
+        font-size: 35px;
+        top: 60px;
+        position: relative;
+        width: 50%;
+    }
+
+    .problem_and_solution_block {
+        position: relative;
+        width: 100%;
+        top: 120px;
+    }
+
+    .problem_and_solution_title_one {
+        left: 25.5%;
+        top: -60px;
+        font-family: "Open Sans";
+        font-size: 2.6vw;
+        position: absolute;
+    }
+
+    .problem_and_solution_text_one {
+        left: 17vw;
+        font-family: "Open Sans";
+        top: 70px;
+        width: 65%;
+        position: relative;
+    }
+
+    .problem_and_solution_title_two {
+        left: 20%;
+        margin-top: -14px;
+        font-family: "Open Sans";
+        font-size: 28px;
+        position: absolute;
+    }
+
+    .problem_and_solution_text_two {
+        left: 17vw;
+        font-family: "Open Sans";
+        top: 25px;
+        width: 65%;
+        position: absolute;
+    }
+
+    .history_footer {
+        margin-top: 10px;
+    }
+
+    .problem_and_solution_title_three {
+        left: 20%;
+        margin-top: -14px;
+        font-family: "Open Sans";
+        font-size: 28px;
+        position: absolute;
+    }
+    .problem_and_solution_block_three{
+        top: 470px;
+    }
+    .problem_and_solution_text_three {
+        top: 40px;
+        left: 17vw;
+        font-family: "Open Sans";
+        width: 65%;
+        position: relative;
+    }
+
+    .cube_img_white_history {
+        top: 0;
+        left: 17vw;
+        height: 13px;
+        position: absolute;
+    }
+
+    .start_compani_title {
+        font-family: "Open Sans";
+        left: 17.5%;
+        font-size: 35px;
+        top: 3370px;
+        color: #000;
+        position: absolute;
+    }
+
+    .start_compani_text {
+        left: 17.5%;
+        font-family: "Open Sans";
+        width: 130%;
+        color: #000;
+        top: 3450px;
+        position: absolute;
+        font-size: 17px;
+        max-width: 65%;
+    }
+    .start_compani_particles{
+        width: 100%;
+        height: 219.8%;
+    }
+    .start_compani {
+        width: 100%;
+        height: 300px;
+    }
+
+    /*End History Body*/
+    /*Vacancies List Header*/
+    .header_vacancies {
+        width: 100%;
+    }
+
+    .header_vacansies_menu {
+        margin-left: 10%;
+    }
+
+    /*Vacancies List Header*/
+    /*Vacancies List Body*/
+    .header_vacancies_title {
+        color: #000;
+        font-family: futuraMediumBT;
+        font-size: 6.9vmin;
+        margin-left: 15vw;
+        font-weight: 400;
+        margin-top: 0;
+    }
+
+
+    .write_us_black_particles_left {
+        position: absolute;
+        top: 148.5%;
+        height: 123%;
+        width: 21%;
+    }
+
+    .write_us_black_particles_right {
+        position: absolute;
+        top: 148.5%;
+        height: 123%;
+        width: 21%;
+        left: 79%;
+    }
+
+    .problem_and_solution_block_one {
+        margin-top: 320px;
+    }
+
+    .upload_cv_black {
+        color: #FFF;
+        font-family: futuraMediumBT;
+        margin-left: 24%;
+    }
+
+    .write_us_black {
+        background: #2C2C2C;
+        width: 100%;
+        height: 120%;
+        position: relative;
+    }
+
+    .cover_later_black {
+        font-family: futuraMediumBT;
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    .input_black_table {
+        margin-top: 5%;
+        margin-left: 26.8%;
+        position: relative;
+    }
+
+    .size_form_black {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-family: futuraMediumBT;
+        color: #000;
+
+    }
+
+    .size_form_black :active {
+        border-color: #FFF;
+
+    }
+
+    .header_vacancies_menu {
+        padding-left: 43%;
+        padding-top: 1.5%;
+        font-family: Conv_13400;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .show_all_job_form_button{
+        display: inline-block;
+    }
+
+    .language_header_vacancies_menu {
+        padding-left: 6%;
+    }
+
+    .part_header_vacancies_menu {
+        padding-left: 6%;
+    }
+
+    .color_part_menu {
+        color: #000;
+    }
+
+    /*End Vacancies List Body*/
+    .carousel {
+        position: relative;
+        width: 75vw;
+        padding: 10px 40px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .vacancy_hot_link {
+        color: #000;
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hot {
+        background: #FF6158;
+        color: #fff;
+        display: inline-block;
+        font-family: futuraMediumBT;
+        width: 3vw;
+        height: 3.5vmin;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.3vmin;
+        padding-top: 4px;
+        margin-left: 1vw;
+        margin-top: 1.5vmin;
+    }
+
+    .read_more {
+        color: #53D9D3;
+        font-family: futuraMediumBT;
+        font-weight: bold;
+        margin-left: 1vw;
+        margin-top: 3vmin;
+        font-size: 3vmin;
+    }
+
+    .vacancy_title {
+        font-family: futuraMediumBT;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .vacancy_info {
+        color: #000 !important;
+        font-family: Arial;
+        font-size: 2.8vmin;
+    }
+
+    .hot_vacancy_title {
+        font-family: futuraMediumBT;
+        font-weight: bold;
+        font-size: 3.8vmin;
+        margin-left: 1vw;
+        padding-top: 2vmin;
+    }
+
+    .hot_list_vacancies {
+        background: #FFFFFF;
+        width: 45.4vmin;
+        height: 30vmin;
+        margin-left: 2vw;
+        margin-top: 0;
+        z-index: 9999;
+        position: relative;
+        display: inline-block;
+    }
+
+    .hot_vacancies_view {
+        left: 15vw;
+        margin-top: 80px;
+        position: absolute;
+    }
+
+    .hot_vacancy_info {
+        color: #000 !important;
+        display: inline-block;
+        font-family: futuraMediumBT;
+        font-weight: bold;
+        margin-left: 0.5vw;
+        font-size: 2.4vmin;
+    }
+
+    .location {
+        font-family: Futura LT Book;
+        font-weight: bold;
+        font-size: 2vmin;
+        margin-left: 1vw;
+        margin-top: 4vmin;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 85px;
+        padding: 0;
+        background: none;
+        border-radius: 15px;
+        border: none;
+        font-size: 30px;
+        line-height: 24px;
+        color: #444;
+        display: block;
+        width: 34px;
+    }
+
+    .arrow:focus {
+        outline: none;
+    }
+
+    .arrow:hover {
+        background: #a4a4a45e;
+        cursor: pointer;
+    }
+
+    .prev {
+        left: 7px;
+    }
+
+    .next {
+        right: 7px;
+    }
+
+    .gallery {
+        width: 100%;
+        overflow: hidden;
+        height: 24vmin;
+    }
+
+    .gallery ul {
+        height: 100%;
+        width: 9999px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        transition: margin-left 250ms;
+    }
+
+    .gallery li {
+        display: inline-block;
+    }
+
+    .red {
+        background: #FFB0AB;
+    }
+
+    .orange {
+        background: #FFEDAB;
+    }
+
+    .green {
+        background: #DAFFAB;
+    }
+
+    .blue {
+        background: #B9E6FF;
+    }
+
+    .violet {
+        background: #E7CFFF;
+    }
+
+    .red p {
+        color: #FF6158;
+        text-align: center;
+        font-size: 2.1vmin;
+        top: 40px;
+        position: relative;
+    }
+
+    .orange p {
+        color: #FACC2C;
+        text-align: center;
+        font-size: 2.1vmin;
+        top: 40px;
+        position: relative;
+    }
+
+    .green p {
+        color: #94D641;
+        text-align: center;
+        font-size: 2.1vmin;
+        top: 40px;
+        position: relative;
+    }
+
+    .blue p {
+        color: #53C1FF;
+        text-align: center;
+        font-size: 2.1vmin;
+        top: 40px;
+        position: relative;
+    }
+    .employee_img img{
+        max-width: 260px;
+        max-height: 350px;
+        display: inline-block;
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+    .employee_name{
+        display: inline-block;
+        top: -290px;
+        position: relative;
+        margin-left: 280px;
+        font-weight: bold;
+        font-size: 28px;
+        font-family: Conv_13400;
+    }
+    .employee_info{
+        display: inline-block;
+        margin-top: -280px;
+        margin-left: 280px;
+        font-size: 15px;
+        font-family: Conv_13400;
+        padding-right: 15px;
+    }
+    .employee_info p{
+        margin-top: -20px;
+
+    }
+    .violet p {
+        color: #CF9EFF;
+        text-align: center;
+        font-size: 2.1vmin;
+        top: 40px;
+        position: relative;
+    }
+
+    .sosial_cube_div:hover .sosial_cube_img {
+        transform: rotate(-45deg) translate(-50%,-50%);
+        left: 50%;
+        position: relative;
+        top: 50%;
+
+    }
+
+    .body_history {
+        height: 1300px;
+        width: 58%;
+    }
+
+    .team_carusel {
+        position: absolute;
+        top: 1202px;
+        max-width: 95%;
+    }
+
+    .team_carusel .carousel {
+        margin-left: 2% !important;
+        width: 100% !important;
+    }
+
+    .team_carusel .gallery {
+        height: 380px !important;
+    }
+    .hot_list_vacancies:nth-child(1){
+        margin-left: 0;
+    }
+    .employee_info p:nth-child(1){
+        color: #53D9D3;
+        position: relative;
+        font-weight: bold;
+        margin-top: -40px;
+        font-size: 18px;
+    }
+    .part_history_slider {
+        margin: 10px;
+        height: 350px;
+        width: 700px;
+        border-radius: 3px;
+        font-family: Futura LT Book;
+        -webkit-box-shadow: 0 9px 15px -8px #777;
+        -moz-box-shadow: 0 9px 15px -8px #777;
+        box-shadow: 0 9px 15px -8px #777;
+    }
+
+}
+/*Style for tablet*/
+
+/*Style for Mobile Phone*/
